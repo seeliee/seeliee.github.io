@@ -55,7 +55,7 @@ education:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: BS Biology, BS Environmental Sciences: Quantitative Energy Systems
+  - degree: BS Biology, BS Environmental Sciences\: Quantitative Energy Systems
     institution: University of North Carolina at Chapel Hill
     start: 2013-09-01
     end: 2015-05-31
