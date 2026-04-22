@@ -251,6 +251,12 @@
       margin-top: 40px;
     }
 
+    .images img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
     @media (max-width: 600px) {
       .layout { flex-direction: column; padding: 24px 16px 60px; gap: 24px; }
       .sidebar { width: 100%; position: static; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
@@ -324,9 +330,13 @@
       <div class="projects-grid">
 
         <a class="project-card" target="_blank">
-          <div class="project-card-title" style="max-height:100%; max-width:100%;">Project One</div>
+          <div class="project-card-title">Project One</div>
             <div class="images">
-              <img src="images/GIS715_Lab2.gif" alt="Climate Change Time Series" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <img 
+                src="images/GIS715_Lab2.gif" 
+                alt="Climate Change Time Series" 
+                style="width:100%; height:auto; display:block;"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
             </div>
           <p class="project-card-desc">A short description of what this project does and why you built it.</p>
           <div class="project-card-tags">#javascript #api #open-source</div>
