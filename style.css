@@ -258,12 +258,12 @@ p { margin: 8px 0; }
   .images {max-height:100%; max-width:100%;}
 }
 
-.main ol, ul {
+.post ol, ul {
   margin-left: 15px;
   padding-left: 15px;
 }
 
-.main li {
+.post li {
   margin-bottom: 8px;
 }
 
