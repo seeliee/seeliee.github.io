@@ -85,7 +85,7 @@ a:hover { color: #504b52; }
   background: #ffeef7;
 }
 
-.nav ol, .nav ul {
+.nav ul {
   margin-left: 0;
   padding-left: 0;
 }
