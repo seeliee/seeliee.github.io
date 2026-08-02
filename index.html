@@ -251,7 +251,10 @@
  
       </div>
     </section>
- 
+    <script>
+      document.getElementById('last-edited').textContent = 'Last edited: ' + new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    </script>
+    <p id="last-edited"></p>
     <p class="credit">made with ♡ — inspired by natsyme's tumblr theme</p>
  
   </main>
