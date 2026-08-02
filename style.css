@@ -258,20 +258,11 @@ p { margin: 8px 0; }
   .images {max-height:100%; max-width:100%;}
 }
 
-.nav ol, .nav ul {
-  margin-left: 0;
-  padding-left: 0;
+.main ol, ul {
+  margin-left: 15px;
+  padding-left: 15px;
 }
 
-ol, ul {
-  margin-left: 40px;
-  padding-left: 40px;
-}
-
-li {
+.main li {
   margin-bottom: 8px;
-}
-
-.nav li {
-  margin-bottom: 0;
 }
