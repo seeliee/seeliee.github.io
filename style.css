@@ -85,7 +85,16 @@ a:hover { color: #504b52; }
   background: #ffeef7;
 }
 
-.nav li { border-bottom: 1px solid #e2e2e2; }
+.nav ol, .nav ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nav li { 
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 0;  
+}
+
 .nav li:last-child { border-bottom: none; }
 
 .nav a {
