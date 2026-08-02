@@ -266,3 +266,14 @@ p { margin: 8px 0; }
 .main li {
   margin-bottom: 8px;
 }
+
+.footer-section {
+  text-align: center;
+  font-size: 10px;
+  color: #bfa4da;
+  margin-top: 40px;
+}
+
+.footer-section p {
+  margin: 0;
+}
