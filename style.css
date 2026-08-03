@@ -272,7 +272,7 @@ p { margin: 8px 0; }
   .images {max-height:100%; max-width:100%;}
 }
 
-.post ol, ul {
+.post ol, .post ul {
   margin-left: 15px;
   padding-left: 15px;
 }
