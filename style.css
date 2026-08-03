@@ -5,6 +5,11 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote {
   padding: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #f7f4f8;
   color: #504b52;
@@ -272,7 +277,12 @@ p { margin: 8px 0; }
   .images {max-height:100%; max-width:100%;}
 }
 
-.post ol, .post ul {
+.post ol {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.post ul {
   margin-left: 15px;
   padding-left: 15px;
 }
